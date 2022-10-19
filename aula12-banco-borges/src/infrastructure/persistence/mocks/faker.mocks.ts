@@ -1,5 +1,4 @@
 import IMocks from "./mocks.interface";
-import MocksAbstract from "./mocks.interface";
 import { faker } from '@faker-js/faker';
 import { IPessoaEntity } from "../../../domain/entities/clients/pessoa.entity";
 import { ClientEntity } from "../../../domain/entities/clients/client.entity";

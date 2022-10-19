@@ -12,3 +12,5 @@
       }
    }
    ```
+
+   npm install pg-promise
