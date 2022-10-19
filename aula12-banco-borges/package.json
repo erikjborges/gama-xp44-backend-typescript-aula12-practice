@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "start": "tsc && node --unhandled-rejections=strict -r dotenv/config ./dist/infrastructure/apis/app/app.js",
-    "debug": "export DEBUG=* && npm run start"
+    "debug": "export DEBUG=* && npm run start",
+    "mocks": "tsc && node ./dist/infrastructure/persistence/mocks/mocks.js"
   },
   "keywords": [
     "gama",

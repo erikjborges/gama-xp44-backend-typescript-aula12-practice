@@ -13,7 +13,6 @@ export class MysqlDatabase implements IDatabaseModel {
     private _adapter: Sequelize.Sequelize;
 
     private constructor(){
-        console.log(databaseConfig);
         this._db = databaseConfig.database!;
         this._username = databaseConfig.username!;
         this._password = databaseConfig.password!;
